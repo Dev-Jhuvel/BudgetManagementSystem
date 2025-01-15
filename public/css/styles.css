@@ -1,0 +1,41 @@
+*::before,
+*::after {
+    box-sizing: border-box !important;
+}
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #b6b6b6;
+}
+.money-bg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 5rem 0;
+    font-size: 16px;
+    color: #fff;
+}
+
+.landing-title {
+    font-size: 5em;
+    font-weight: 700;
+}
+
+.landing-text {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.text-shadow {
+    text-shadow: 2px 2px 8px #000000;
+}
+
+@media (min-width: 1000px) {
+    .c-row {
+        display: flex;
+        justify-content: space-between;
+        align-content: space-between;
+    }
+}
