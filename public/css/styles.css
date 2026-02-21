@@ -9,6 +9,7 @@ body {
     background: #b6b6b6;
 }
 .money-bg {
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;

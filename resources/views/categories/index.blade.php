@@ -45,10 +45,10 @@
             </tr>
         </thead>
         <tbody>
-            @forelse ($categories as $category)
+            @forelse ($categories as $index => $category)
                 <tr>
                     {{-- <td>{{ date_format($category->created_at, 'F d, Y') }} </td> --}}
-                    <td>{{ $category->id }} </td>
+                    <td>{{ $index + 1 }} </td>
                     <td>{{ $category->categoryName }} </td>
                     <td>{{ $category->categoryType === 1 ? 'Income' : 'Expense' }} </td>
                     <td>
